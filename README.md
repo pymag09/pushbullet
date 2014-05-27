@@ -18,7 +18,7 @@ Installation:
 
 Using examples:
 -------------------------------------
-import pushbullet
+'''import pushbullet
 
 #Create the push instance
 my_push = pushbullet.PBPushes(your_API_Key)
@@ -78,3 +78,4 @@ my_push.pushes(device_iden=(device_iden), type='list', title='my title', items=[
 #Getting this user's information
     my_pb_me = pushbullet.PBUsers(your_API_Key)
     print(my_pb_me.get_me())
+'''
