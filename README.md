@@ -1,15 +1,18 @@
+Pushbullet
+=============================================================
+
 pushbullet is python3 library to work with pushbullet service
 Call of any function returns a tuple with 3 elements
-    code of the HTTP request
-    URL or Error of the HTTP request
-    the HTTP response
+    - code of the HTTP request
+    - URL or Error of the HTTP request
+    - the HTTP response
 
 The Library consist of 5 classes. Each has its own functionality
-    PBPushes
-    PBFileUpload
-    PBUsers
-    PBContacts
-    PBDevices
+    - PBPushes
+    - PBFileUpload
+    - PBUsers
+    - PBContacts
+    - PBDevices
 
 Installation:
 -------------------------------------
@@ -18,7 +21,7 @@ Installation:
 
 Using examples:
 -------------------------------------
-'''import pushbullet
+```import pushbullet
 
 #Create the push instance
 my_push = pushbullet.PBPushes(your_API_Key)
@@ -78,4 +81,4 @@ my_push.pushes(device_iden=(device_iden), type='list', title='my title', items=[
 #Getting this user's information
     my_pb_me = pushbullet.PBUsers(your_API_Key)
     print(my_pb_me.get_me())
-'''
+```
