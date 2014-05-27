@@ -13,7 +13,7 @@ The Library consist of 5 classes. Each has its own functionality
 
 Installation:
 -------------------------------------
-# git clone
+# git clone git@github.com:pymag09/pushbullet.git
 # python3 setup.py install
 
 Using examples:
