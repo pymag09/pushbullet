@@ -21,7 +21,8 @@ Installation:
 
 Using examples:
 -------------------------------------
-```import pushbullet
+```
+import pushbullet
 
 #Create the push instance
 my_push = pushbullet.PBPushes(your_API_Key)
