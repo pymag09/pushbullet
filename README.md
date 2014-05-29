@@ -19,7 +19,7 @@ Installation:
 # git clone git@github.com:pymag09/pushbullet.git
 # python3 setup.py install
 
-Recommended python`s version 3.4
+python3 v3.4 is recommended
 
 Using examples:
 -------------------------------------
